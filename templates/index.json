@@ -1,7 +1,9 @@
 {
     "section":{
         "banner":{
-            "type":"banner"
+            "type":"banner",
+            "settings": {
+            }
         }
     },
     "order":[
