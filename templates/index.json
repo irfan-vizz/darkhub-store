@@ -1,12 +1,12 @@
 {
-    "section":{
-        "banner":{
-            "type":"banner",
-            "settings": {
-            }
-        }
-    },
-    "order":[
-        "banner"
-    ]
+  "sections": {
+    "banner": {
+      "type": "banner",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "banner"
+  ]
 }
