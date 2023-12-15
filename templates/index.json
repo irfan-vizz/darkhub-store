@@ -3,6 +3,7 @@
     "banner": {
       "type": "banner",
       "settings": {
+        "header": ""
       }
     }
   },
