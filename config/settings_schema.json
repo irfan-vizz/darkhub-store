@@ -1,3 +1,34 @@
-[
 
+[
+    {
+        "name": "theme_info",
+        "theme_name": "Dark Hub Store",
+        "theme_author": "Irfan",
+        "theme_version": "1.0.0",
+        "theme_documentation_url": "https:\/\/help.shopify.com\/manual\/online-store\/themes\/os20\/themes-by-shopify\/dawn",
+        "theme_support_url": "https:\/\/support.shopify.com\/"
+      },  {
+        "name": "Colors",
+        "settings": [
+          {
+            "type": "color",
+            "id": "color_accent",
+            "label": "Accent",
+            "default": "#c4cdd5",
+            "info": "Buttons and special ornaments"
+          },
+          {
+            "type": "color",
+            "id": "color_body_text",
+            "label": "Text",
+            "default": "#161d25"
+          },
+          {
+            "type": "color",
+            "id": "color_main_bg",
+            "label": "Background",
+            "default": "#fff"
+          }
+        ]
+      }
 ]
