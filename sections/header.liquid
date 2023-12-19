@@ -29,20 +29,20 @@
 
 
           {% comment %} <li>
-                        <a href="parts.html">PARTS & SERVICES</a>
-                      </li>
-                      <li>
-                        <a href="#">FINANCING</a>
-                      </li>
-                      <li>
-                        <a href="pro-shop.html">PRO SHOP</a>
-                      </li>
-                      <li>
-                        <a class="navLinks" href="about.html">ABOUT</a>
-                      </li>
-                      <li>
-                        <a class="navLinks" href="locations.html">CONTACT</a>
-                    </li> {% endcomment %}
+                                                <a href="parts.html">PARTS & SERVICES</a>
+                                              </li>
+                                              <li>
+                                                <a href="#">FINANCING</a>
+                                              </li>
+                                              <li>
+                                                <a href="pro-shop.html">PRO SHOP</a>
+                                              </li>
+                                              <li>
+                                                <a class="navLinks" href="about.html">ABOUT</a>
+                                              </li>
+                                              <li>
+                                                <a class="navLinks" href="locations.html">CONTACT</a>
+                                        </li> {% endcomment %}
           <li>
             <a href="#" class="search">
               <i class="fa fa-search"></i>
@@ -58,15 +58,20 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12 col-sm-8 col-md-9">
-          <p>RIVERSIDE
-            <span>951-653-9253</span>
-          </p>
-          <p>WOODLAND HILLS
-            <span>818-225-7669</span>
-          </p>
-          <p>NORCO
-            <span>951-479-9640</span>
-          </p>
+          {% comment %} <p>RIVERSIDE
+                                    <span>951-653-9253</span>
+                              </p> {% endcomment %}
+          {% for link in linklists.location-menu.links -%}
+            <p>
+              {{ link.title | link_to: link.url }}
+            </p>
+          {%- endfor %}
+        {% comment %} <p>WOODLAND HILLS
+                                <span>818-225-7669</span>
+                              </p>
+                              <p>NORCO
+                                <span>951-479-9640</span>
+                          </p> {% endcomment %}
         </div>
         <div class="col-xs-12 col-sm-4 col-md-3">
           <a class="customBtn" href="#">SCHEDULE A TEST DRIIVE</a>
