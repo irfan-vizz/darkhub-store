@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="{{ 'mediaQuery.css' | asset_url }}">
   </head>
   <body>
+    {%- render 'header' -%}
     {{ content_for_layout }}
     <script src="{{ 'bootstrap.min.js' | asset_url }}"></script>
     <script src="{{ 'jquery.min.js' | asset_url }}"></script>
