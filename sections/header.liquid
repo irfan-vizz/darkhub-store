@@ -68,7 +68,7 @@
           {%- endfor %}
           {%- if section.settings.topmenu -%}
              
-            {% for link in topmenu.links -%}
+            {% for link in section.settings.topmenu.links -%}
             <p>
               {{ link.title | link_to: link.url }}
             </p>
