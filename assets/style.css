@@ -1,0 +1,2114 @@
+body {
+    font-family: 'trade-gothic-next';
+}
+
+a:hover {
+    transition: 0.4s ease all;
+    text-decoration: none;
+}
+
+button:focus, input:focus, a:focus, textarea:focus {
+    outline: none;
+}
+
+@media (min-width: 1300px) {
+    .container {
+        width: 1240px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container {
+        width: 1300px;
+    }
+}
+
+@media (min-width: 1500px) {
+    .container {
+        width: 1400px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .container {
+        width: 1500px;
+    }
+}
+
+@media (min-width: 1700px) {
+    .container {
+        width: 1600px;
+    }
+}
+
+@media (min-width: 1800px) {
+    .container {
+        width: 1700px;
+    }
+}
+
+.VAlign {
+    display: flex;
+    align-items: center;
+}
+
+.customBtn {
+    background: #ca2123;
+    border: none;
+    padding: 10px 30px;
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    font-weight: 200;
+    transition: 0.4s ease all;
+}
+
+.customBtn:hover {
+    color: #fff;
+    background: #000;
+}
+
+.customBtnBlack {
+    background: #000;
+    border: none;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 17px;
+    letter-spacing: 0.8px;
+    font-weight: 200;
+    transition: 0.4s ease all;
+}
+
+.customBtnBlack:hover {
+    color: #fff;
+    background: #ca2123;
+}
+
+.mainHeading {
+    color: #333333;
+    letter-spacing: 2px;
+    font-size: 34px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: 400;
+    /* text-transform: uppercase; */
+}
+
+.mainHeading small {
+    color: #000;
+}
+
+.mainHeading.Bigheading {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.SubHeading {
+    font-family: 'Forza';
+    letter-spacing: 0.32px;
+    font-size: 16px;
+    margin-top: 0;
+}
+
+.TagLine {
+    border-top: 0.5px solid #000000;
+    opacity: 0.5;
+    margin-bottom: 30px;
+}
+
+.navMargin {
+    margin-top: 87px;
+}
+
+/* nav bar starts here */
+
+.customNav {
+    background: #fff;
+    border-bottom: none;
+    margin: 0;
+    padding: 5px 0;
+    /* position: absolute; */
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 222;
+    border-radius: 0;
+}
+
+.customNav .navbar-brand {
+    width: 280px;
+    height: auto;
+}
+
+.customNav .navbar-brand img {
+    width: 100%;
+}
+
+.customNav .navbar-nav {
+    margin-top: 20px;
+}
+
+.customNav .navbar-nav>li>a {
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    color: #1a1a1a;
+    padding: 8px 18px;
+    transition: 0.4s ease all;
+}
+
+.customNav .navbar-nav>li>.search {
+    padding-right: 0;
+}
+
+.customNav .navbar-nav>li>a:hover, .customNav .navbar-nav>li>a.active {
+    color: #ca2123;
+}
+
+.customNav .navbar-nav>li>.search:hover {
+    color: #ca2123;
+}
+
+.customNav .navbar-nav>li>.navLinks {
+    font-weight: 300
+}
+
+/* top bar starts here */
+
+.topBar {
+    background: #1a1a1a;
+    color: #666666;
+}
+
+.topBar p {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 11px;
+    margin-bottom: 0;
+}
+
+.topBar p span {
+    font-weight: 900;
+    margin-right: 15px;
+}
+
+.topBar .customBtn {
+    font-size: 14px;
+    font-weight: 600;
+    float: right;
+}
+
+/* Top slider starts here */
+
+.topBannar {
+    min-height: 660px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.topBannar::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+.bgImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.topBnannarInner {
+    text-align: center;
+    color: #fff;
+    width: 100%;
+}
+
+.topBnannarInner h1 {
+    font-size: 46px;
+    margin-top: 0;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.topBnannarInner a {
+    font-size: 28px;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.4s ease all;
+}
+
+.topBnannarInner a:hover {
+    color: #ca2123;
+}
+
+/* services cards section starts here */
+
+.servicesCards {
+    padding: 20px 0;
+}
+
+.servicesLinks {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.servicesCards a {
+    position: relative;
+    font-size: 28px;
+    font-weight: 900;
+    color: #000;
+    text-decoration: none;
+    transition: 0.4s ease all;
+}
+
+.servicesCards .bdrLft {
+    border-left: 1px solid #c1c1c1;
+}
+
+.servicesCards a:hover {
+    color: #ca2123;
+}
+
+.servicesCards a::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* featured boats section starts here */
+
+.featuredInventory {
+    padding: 50px 0
+}
+
+.featuredInventory .mainHeading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.boatCard {
+    position: relative;
+}
+
+.boatCard .boatImg {
+    position: relative;
+    padding-top: 62%;
+}
+
+.boatCard .boatImg img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.boatTag {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 22;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px 12px;
+    background: #ca2123;
+}
+
+.boatTag::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 100%;
+    border-width: 27px 20px 0 0;
+    border-style: solid;
+    border-color: #ca2123 transparent transparent transparent;
+}
+
+.boatDetail {
+    padding: 10px 0;
+}
+
+.boatDetail h3 {
+    color: #000000;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.boatDetail ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.boatDetail ul li {
+    font-size: 16px;
+    color: #000000;
+    font-weight: 300;
+}
+
+.boatDetail ul li+li {
+    margin-top: 5px;
+}
+
+.boatDetail ul li span {
+    font-weight: 700;
+}
+
+.boatDetail .customBtnBlack {
+    margin-top: 15px;
+}
+
+.BoatCarousel .owl-nav {
+    position: absolute;
+    top: 50%;
+    left: -40px;
+    transform: translateY(-50%);
+    width: calc(100% + 80px);
+}
+
+.BoatCarousel .owl-nav button.owl-prev {
+    float: left;
+}
+
+.BoatCarousel .owl-nav button.owl-next {
+    float: right;
+}
+
+.BoatCarousel .owl-nav button.owl-next, .BoatCarousel .owl-nav button.owl-prev {
+    font-size: 40px;
+    color: #c1c1c1;
+    transition: 0.4s ease all;
+}
+
+.BoatCarousel .owl-nav button.owl-next:hover, .BoatCarousel .owl-nav button.owl-prev:hover {
+    background: transparent;
+    color: #000
+}
+
+/* about section starts here */
+
+.aboutSection {
+    padding: 50px 0;
+    background: url(../images/aboutBg.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.aboutSection::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000eb;
+}
+
+.aboutSection .container {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    color: #ffffffc7;
+}
+
+.aboutSection .mainHeading {
+    font-size: 30px;
+    color: #ffffffb0;
+    margin-bottom: 20px;
+}
+
+.aboutSection p {
+    font-size: 16px;
+    color: #ffffffb0;
+    font-weight: 300;
+}
+
+/* trade in section starts here */
+
+.tradeIn {
+    padding: 70px 0;
+    background: #f5f5f5;
+}
+
+.tradeIn .mainHeading {
+    font-size: 28px;
+    text-align: center;
+    font-weight: 600;
+    color: #333333;
+}
+
+.tradeIn form {
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+}
+
+.inputWrapper {
+    display: inline-block;
+}
+
+.inputWrapper input {
+    height: 50px;
+    border: 1px solid #dedfe0;
+    padding: 4px 15px 4px 15px;
+    min-width: 200px;
+    width: 100%;
+}
+
+.inputWrapper .customBtn {
+    padding: 10px 30px;
+    min-width: auto;
+}
+
+/* footer starts here */
+
+footer {
+    padding: 50px 0;
+    border-top: 1px solid #c1c1c1;
+}
+
+footer h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 900;
+    color: #333333;
+}
+
+.footerLogo img {
+    width: 215px;
+    max-width: 100%;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+footer ul li+li {
+    margin-top: 10px;
+}
+
+footer ul a, footer p {
+    font-size: 16px;
+    color: #333333;
+    font-weight: 300;
+    transition: 0.4s ease all;
+}
+
+footer ul a:hover {
+    color: #ca2123;
+}
+
+.subscribeWrapper {
+    margin: 10px 0;
+}
+
+.subscribeWrapper input {
+    background: #e7e7e7;
+    height: 45px;
+    border: none;
+    padding: 13px 15px;
+    width: calc(100% - 170px);
+}
+
+.subscribeWrapper .customBtnBlack {
+    float: right
+}
+
+.socialLinks a {
+    width: 34px;
+    height: 34px;
+    display: inline-block;
+    background: #ca2123;
+    border-radius: 50%;
+    position: relative;
+    color: #fff;
+    font-size: 18px;
+    transition: 0.4s ease all;
+}
+
+.socialLinks a+a {
+    margin-left: 5px;
+}
+
+.socialLinks a i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.socialLinks a:hover {
+    background: #000
+}
+
+.copyRights {
+    padding: 15px 0;
+    border-top: 1px solid #c1c1c1;
+}
+
+.copyRights span, .copyRights span a {
+    color: #333333;
+    transition: 0.4s ease all;
+    font-size: 14px;
+}
+
+.copyRights span a:hover {
+    color: #ca2123
+}
+
+.copyRights span+span {
+    float: right;
+}
+
+.copyRights span ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.copyRights span li {
+    display: inline-block;
+    padding: 0 10px;
+    position: relative;
+}
+
+.copyRights span li+li {
+    border-left: 1px solid #c1c1c1;
+}
+
+/******************* 
+pro page starts here
+********************/
+
+.pageBannar {
+    display: block;
+    max-height: 600px;
+    overflow: hidden;
+}
+
+.pageBannar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* pro shop section starts here */
+
+.proShop {
+    padding: 50px 0;
+}
+
+.proShopLogo img {
+    width: 100%;
+    height: auto;
+}
+
+.proShopContent {
+    margin: 50px 0;
+}
+
+.proShopContent p {
+    font-size: 16px;
+    color: #000000;
+    line-height: 24px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.proShop .boatCard {
+    margin-bottom: 40px;
+}
+
+.proShop .boatDetail h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+    margin-top: 10px;
+}
+
+/************
+SERVICES PAGE
+************/
+
+.servicesBannar {
+    padding: 40px 0;
+}
+
+.serviceForm {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+}
+
+.formHeading {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.CustomForm .form-group {
+    min-height: 23px;
+}
+
+.CustomForm label {
+    color: #1a1a1a;
+    font-size: 16px;
+}
+
+.CustomForm .form-control {
+    padding: 20px 15px;
+    border-radius: 0;
+    background: #ffffff;
+    border-color: #e4e4e4;
+    height: 47px;
+}
+
+.CustomForm select.form-control {
+    padding: 14px 15px;
+}
+
+.CustomForm textarea.form-control {
+    height: auto;
+}
+
+.CustomForm span {
+    font-size: 13px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.CustomForm .customBtn {
+    padding: 10px 50px;
+}
+
+/* breadCrum starts here */
+
+.breadcrum a {
+    color: #000;
+}
+
+.breadcrum a+a, .breadcrum a+span {
+    padding-left: 15px;
+    position: relative;
+}
+
+.breadcrum a+a::before, .breadcrum a+span::before {
+    content: "/";
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+}
+
+.breadcrum span {
+    font-weight: 600;
+}
+
+.customCheckbox label {
+    transform: translateY(-2px);
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0;
+    margin-left: 5px;
+}
+
+.customCheckbox label+input {
+    margin-left: 15px;
+}
+
+.customCheckbox input {
+    position: relative;
+}
+
+.customCheckbox input[type="checkbox"]::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 16px;
+    border: 1px solid #c3c3c3;
+    height: 16px;
+    background: #fff;
+}
+
+.customCheckbox input[type="checkbox"]::after {
+    content: "\f00c";
+    font: normal normal normal 14px/1 FontAwesome;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 10px;
+    color: #fff;
+    transition: 0.4s ease all;
+    cursor: pointer;
+}
+
+.customCheckbox input[type="checkbox"]:checked:after {
+    color: #008542;
+}
+
+.customCheckbox input[type="checkbox"]:checked::before {
+    border-color: #008542;
+}
+
+/* radio button  */
+
+.customCheckbox input[type="radio"]::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 16px;
+    height: 16px;
+    border: 1px solid #c3c3c3;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.customCheckbox input[type="radio"]::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 10px;
+    width: 8px;
+    height: 8px;
+    background: #fff;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.4s ease all;
+}
+
+.customCheckbox input[type="radio"]:checked::before {
+    border-color: #008542;
+}
+
+.customCheckbox input[type="radio"]:checked:after {
+    background: #008542;
+}
+
+/********
+LOCATIONS
+*********/
+
+.locations {
+    padding: 50px 0;
+}
+
+.officeLocation {
+    text-align: center;
+}
+
+.mapWrapper img {
+    width: 100%;
+}
+
+.officeDetails h2 {
+    color: #333333;
+    font-size: 22px;
+    margin: 15px 0;
+}
+
+.officeDetails p {
+    font-size: 14px;
+    color: #333333;
+    /* font-weight: 300; */
+}
+
+.officeDetails a {
+    font-size: 18px;
+    color: #ca2123;
+    font-weight: 700;
+}
+
+.officeDetails h3 {
+    background-color: #f5f5f5;
+    padding: 10px 0;
+    margin: 30px auto 20px;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.officeDetails ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 15px;
+    color: #333333;
+    /* font-weight: 300; */
+    text-align: left;
+    padding: 0 40px;
+}
+
+.officeDetails ul li span {
+    float: right;
+}
+
+/* contact form starts here */
+
+.contactForm {
+    background-color: #1a1a1a;
+    padding: 50px 0;
+}
+
+.contactForm .mainHeading {
+    color: #fff;
+}
+
+.contactForm .CustomForm label {
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/*******
+ABOUT US
+********/
+
+.aboutUs {
+    padding: 50px 0;
+}
+
+.aboutimg {
+    position: relative;
+    padding-top: 80%;
+}
+
+.aboutimg img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* our team section starts here  */
+
+.ourTeam {
+    background-color: #1a1a1a;
+    padding: 70px 0;
+}
+
+.ourTeam .mainHeading {
+    color: #fff;
+}
+
+.teamCard {
+    background-color: #333333;
+    padding: 30px;
+    padding-top: 0;
+    color: #fff;
+    margin-top: 80px;
+}
+
+.teamCard h2 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.teamCard span {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.teamCard p {
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 300;
+}
+
+.teamImg {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: auto;
+    transform: translateY(-50%);
+    margin-bottom: -50px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #fff;
+}
+
+.teamImg img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* mega menu styles starts here */
+
+.megaMenu {
+    position: relative;
+}
+
+.megaMenuWrapper {
+    top: 100%;
+    min-width: 350px;
+    display: none;
+    /* padding: 18px 30px; */
+    border: none;
+    position: absolute;
+    z-index: 222;
+    /* background: #fff; */
+    height: 80vh;
+    padding: 0 75px;
+    padding-right: 0;
+    z-index: 3;
+    background: #1e1e1e;
+}
+
+.nav_li:hover .megaMenuWrapper {
+    display: block;
+}
+
+.megaMenu::before {
+    display: none;
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    background: #1313138c;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.megaMenu:hover .megaMenuWrapper, .megaMenu:hover::before {
+    display: block;
+}
+
+.megaMenuWrapper a {
+    text-decoration: none;
+}
+
+.megaMenuWrapper ul {
+    list-style: none;
+}
+
+.mgCat {
+    height: 100%;
+    float: left;
+    border-right: 1px solid #ffffff4d;
+}
+
+ul.mgCat.clearfix {
+    overflow-y: auto;
+}
+
+ul.mgCat.clearfix::-webkit-scrollbar {
+    width: 5px;
+}
+
+ul.mgCat.clearfix::-webkit-scrollbar-track {
+    background: #272727;
+    border-radius: 20px;
+}
+
+ul.mgCat.clearfix::-webkit-scrollbar-thumb {
+    background: #565656;
+    border-radius: 10px;
+}
+
+ul.mgCat.clearfix::-webkit-scrollbar-thumb:hover {
+    background: #c9c9c9;
+}
+
+.mgCat li {
+    padding: 10px 0;
+    font-size: 12px;
+}
+
+.mgCat li a {
+    transition: 0.4s ease all;
+    position: relative;
+    display: block;
+    font-size: 18px;
+    font-weight: 100;
+    padding-bottom: 3px;
+    color: #fff;
+}
+
+.mgCat li a::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background: #ca2123;
+    transition: 0.4s ease all;
+}
+
+.mgCat li a:hover::after, .mgCat li a.isHovered::after {
+    width: 100%;
+}
+
+.mgListing {
+    height: 100%;
+    float: left;
+    border-right: 1px solid #ffffff4d;
+}
+
+.listingStyle li {
+    padding: 10px 0;
+    font-size: 12px;
+}
+
+.listingStyle li a {
+    color: #fff;
+    transition: 0.4s ease all;
+    position: relative;
+    display: block;
+    font-size: 18px;
+    font-weight: 100;
+    padding-bottom: 3px;
+}
+
+.listingStyle li a::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background: #ca2123;
+    transition: 0.4s ease all;
+}
+
+.listingStyle li a:hover, .listingStyle li a.isHovered {
+    color: #fff;
+}
+
+.listingStyle li a:hover::after, .listingStyle li a.isHovered::after {
+    width: 100%;
+}
+
+.mgClass {
+    float: left;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: thin;
+    height: 100%;
+    border-right: 1px solid #ffffff4d;
+}
+
+.mgCat, .mgListing, .mgClass {
+    width: 250px;
+    padding-top: 30px;
+    padding-left: 25px;
+}
+
+.mgListing ul, .mgClass ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* .mg content starts here  */
+
+.mgContent {
+    width: calc(100% - 750px);
+    float: left;
+    overflow-y: auto;
+    background: #fff;
+    overflow-x: hidden;
+    scrollbar-width: thin;
+    height: 100%;
+}
+
+.mgInner::-webkit-scrollbar-track, .mgClass::-webkit-scrollbar-track, .mgContent::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #F5F5F5;
+}
+
+.mgInner::-webkit-scrollbar, .mgClass::-webkit-scrollbar, .mgContent::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F5F5F5;
+}
+
+.mgInner::-webkit-scrollbar-thumb, .mgClass::-webkit-scrollbar-thumb, .mgContent::-webkit-scrollbar-thumb {
+    background-color: #122342;
+}
+
+.contentCardsWrapper {
+    padding: 78px;
+}
+
+.contentCardsWrapper a {
+    display: inline-block;
+    padding: 10px 23px;
+    color: #fff;
+    background: #122342;
+}
+
+.contentImgOnly a {
+    background: #122342;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    display: inline-block;
+    padding: 10px 23px;
+    color: #fff;
+}
+
+.customRow {
+    display: block;
+    margin: 0 -10px;
+}
+
+.CustomCol {
+    padding: 0 10px;
+    width: calc(100% / 5);
+    float: left;
+}
+
+a.contentImg {
+    position: relative;
+    padding: 0;
+    padding-top: 65%;
+    display: block;
+    width: 100%;
+}
+
+.contentImg img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.contentCard a.contentName {
+    height: 50px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    padding: 0;
+    font-weight: 500;
+    margin-top: 12px;
+    max-width: 340px;
+    margin-bottom: 40px;
+    background: transparent;
+}
+
+.contentImgOnly {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.contentImgOnly img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.listingStyle {
+    display: none;
+}
+
+@media screen and (max-width:1400px) {
+    .contentCardsWrapper {
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width:1199px) {
+    .megaMenuWrapper {
+        padding: 0 20px;
+        padding-right: 0;
+    }
+    .mgInner {
+        width: 300px;
+    }
+    /* .mgClass {
+        width: 185px;
+    } */
+    .mgCat, .mgListing, .mgClass{
+        width: 185px;
+    }
+    .mgContent {
+        width: calc(100% - 555px);
+    }
+    .mgListing {
+        padding-right: 5px;
+    }
+    .contentCard h3 {
+        font-size: 15px;
+    }
+    .listingStyle li a:hover, .listingStyle li a.isHovered {
+        color: #ca2123;
+    }
+    .listingStyle li a {
+        font-size: 14px;
+    }
+}
+
+/* all boats section starts here */
+
+.boatsListing .customBtnBlack {
+    float: right;
+    margin-top: -44px;
+}
+
+.boatDetail .price {
+    font-size: 23px;
+    font-weight: 300;
+    color: #808080;
+}
+
+.boatDetail .price span {
+    color: #cb2127;
+}
+
+.boatsListing .boatCard {
+    margin: 25px 0;
+}
+
+.boatsListingWrapper {
+    padding: 50px;
+    padding-right: 100px;
+}
+
+.boatsHeading {
+    color: #333333;
+    letter-spacing: 2px;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.boatsHeading .sortWrapper {
+    float: right;
+}
+
+.boatsHeading .sortWrapper label {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.boatsHeading .sortWrapper select {
+    font-size: 12px;
+    width: 130px;
+    height: 35px;
+    padding: 0 8px;
+    border-radius: 0;
+    background: #fff;
+}
+
+/* filters starts here */
+
+.filtersWrapper {
+    background: #f9f9f9;
+}
+
+.filterInner {
+    padding: 50px;
+    padding-left: 100px;
+}
+
+.filterBtn {
+    display: block;
+    padding: 30px;
+    padding-left: 100px;
+    background-color: #231f20;
+    margin: 0 -15px;
+    color: #fff;
+    font-size: 30px;
+    transition: 0.4s ease all;
+}
+
+.filterBtn:hover {
+    background: #ca2123;
+    color: #fff;
+}
+
+.filterInner h1 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+.filterInner h4 {
+    font-weight: 500;
+    font-size: 16px;
+    margin: 30px 0 20px;
+    color: #a3a2a2;
+    float: left;
+}
+
+.catbox input {
+    display: none;
+}
+
+.filterInner label {
+    font-weight: 300;
+    margin-bottom: 5px;
+    color: #a3a2a2;
+}
+
+.filterform {
+    float: left;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.filterform input {
+    height: 44px;
+    border-radius: 00;
+    border-color: #e7e8e9;
+}
+
+.sqr-checkBox {
+    float: left;
+    width: 100%;
+    position: relative;
+    padding-left: 25px;
+}
+
+.sqr-checkBox input {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    opacity: 0;
+}
+
+.sqr-checkBox .filter-checkbox {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 15px;
+    height: 15px;
+    color: #dcdcdc;
+    z-index: 1;
+    font-size: 16px;
+}
+
+.sqr-checkBox input+span i.fa.fa-square-o {
+    display: block;
+}
+
+.sqr-checkBox input:checked+span i.fa.fa-square-o {
+    display: none;
+}
+
+.sqr-checkBox input+span .fa-square {
+    display: none;
+}
+
+.sqr-checkBox input:checked+span .fa-square {
+    display: block;
+    color: #ca2123;
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+.ui-widget.ui-widget-content {
+    border: 1px solid #a8a8a8;
+    background: #dbdbdb;
+    height: 5px;
+    border-radius: 0;
+}
+
+.ui-slider-horizontal .ui-slider-range {
+    background: #4d4d4d;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default {
+    outline: none !important;
+    border: 1px solid #4d4d4d;
+    border-radius: 0;
+    width: 9px;
+    height: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active {
+    border-color: #cb2127 !important;
+    background: #cb2127 !important;
+}
+
+#brand-filter-mob, #class-filter-mob, #condition-filter-mob, #model-filter-mob {
+    display: none;
+}
+
+/************
+BOATS DETAILS
+*************/
+
+.boatDetailSection {
+    position: relative;
+    overflow: hidden;
+}
+
+.boatDetailSection>.row {
+    margin: 0;
+}
+
+.boatDetailSection>.row>.col-xs-12 {
+    padding: 0;
+}
+
+/* slick slider section starts here */
+
+.BoatsSlider .slick-slide img {
+    display: block;
+    width: 100%;
+}
+
+.slider-nav {
+    margin: 0 -10px;
+}
+
+.BoatsSlider .NavImages {
+    margin: 0 10px;
+}
+
+.slick-dots {
+    opacity: 0;
+}
+
+.slick-dotted .slick-prev:before, .slick-dotted .slick-next:before {
+    color: #191919;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 20px;
+}
+
+.slick-dotted .slick-prev, .slick-dotted .slick-next {
+    height: 100%;
+    width: 25px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 2;
+    color: #000000f7;
+    background: transparent;
+}
+
+.slick-dotted .slick-next {
+    right: -30px;
+}
+
+.slick-dotted .slick-prev {
+    left: -30px;
+}
+
+.slick-prev:before {
+    content: "";
+    background: url('../images/icons/lnr-chevron-right.svg');
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(180deg);
+}
+
+.slick-next:before {
+    content: "";
+    background: url('../images/icons/lnr-chevron-right.svg');
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.slider-nav .slick-slide img {
+    /* height: 120px; */
+    width: 100%;
+    object-fit: cover;
+}
+
+.calculatorWrapper {
+    padding: 50px;
+}
+
+.calculatorWrapper .form-control {
+    padding: 20px 15px;
+    border-radius: 0;
+    background: #ffffff;
+    border-color: #c4c4c4;
+    height: 47px;
+}
+
+.calculatorWrapper select.form-control {
+    padding: 14px 15px;
+}
+
+.calculatorWrapper textarea.form-control {
+    height: auto;
+}
+
+.calculatorWrapper h2 {
+    font-size: 28px;
+    color: #000000;
+    margin-top: 0;
+}
+
+.calculatorWrapper h3 {
+    color: #ca2123;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.calculatorWrapper hr {
+    margin: 30px 0;
+    border-top: 1px solid #c4c4c4;
+}
+
+.calculatorWrapper p {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+.calculatorWrapper .customBtn {
+    margin: 25px 0;
+}
+
+.otherBtns .customBtnBlack {
+    width: 100%;
+    margin: 15px 0;
+    display: block;
+}
+
+/* boats specs infromation starts here */
+
+.SpectInfo {
+    padding: 50px 100px;
+    padding-right: 0;
+}
+
+.boatInfo {
+    border: 1px solid #c4c4c4;
+    padding: 20px;
+    margin: 15px 0;
+}
+
+.boatInfo h2 {
+    color: #000000;
+    font-size: 26px;
+    text-align: center;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.boatInfo ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.boatInfo ul li {
+    padding: 8px 15px;
+    font-size: 16px;
+    color: #302f2e;
+}
+
+.boatInfo ul li::after, .boatInfo ul li::before {
+    display: table;
+    content: " ";
+    clear: both;
+}
+
+.boatInfo ul li span {
+    float: right;
+}
+
+.boatInfo ul li:nth-child(odd) {
+    background: #f9f9f9;
+}
+
+/* testimonials section starts here */
+
+.testimonials {
+    border-top: 1px solid #bdbdbd;
+    padding: 50px 0;
+}
+
+.testimonials h2 {
+    color: #000;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.testiWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.testiBtn {
+    width: 16px;
+    height: 100%;
+    max-width: 16px;
+    margin-right: 140px;
+    position: relative;
+    padding: 20px 0;
+}
+
+.testiBtn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0.5px;
+    height: 100%;
+    background: #a4a4a5;
+    z-index: -1;
+}
+
+.testiBtn a {
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    display: block;
+    border-radius: 50%;
+    margin: 30px 0;
+    border: 1px solid #a4a4a5;
+    transition: 0.4s ease all;
+}
+
+.testiBtn a:hover, .testiBtn a.active {
+    background: #cb2127;
+    border-color: #cb2127;
+}
+
+.testiContent h3 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.testiContent p {
+    line-height: 1.7;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.testiContent p img {
+    width: 30px;
+    float: left;
+    margin-left: -35px;
+    margin-top: 7px;
+}
+
+.testiContent h4 {
+    font-size: 16px;
+    margin: 0;
+}
+
+/* media queries starts here */
+
+@media (max-width: 1400px) {
+    .filterInner {
+        padding: 50px;
+        padding-left: 50px;
+    }
+    .filterBtn {
+        padding-left: 50px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .customNav .navbar-brand {
+        width: 210px;
+    }
+    .customNav .navbar-nav>li>a {
+        font-size: 14px;
+    }
+    .topBar .customBtn {
+        text-align: center;
+        padding: 10px 14px;
+    }
+    .customNav .navbar-nav {
+        margin-top: 16px;
+    }
+    .topBannar {
+        min-height: 490px;
+    }
+    .topBnannarInner h1 {
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+    .servicesCards a {
+        font-size: 18px;
+    }
+    .mainHeading {
+        font-size: 28px;
+    }
+    .BoatCarousel .owl-nav {
+        left: -25px;
+        width: calc(100% + 50px);
+    }
+    .proShop .boatDetail h3 {
+        font-size: 16px;
+    }
+    .proShopContent {
+        margin: 30px 0;
+    }
+    .officeDetails ul {
+        padding: 0;
+    }
+    .filterInner {
+        padding-right: 15px;
+    }
+    .boatsListingWrapper {
+        padding-left: 15px;
+    }
+}
+
+@media (max-width: 991px) {
+    .customBtn {
+        padding: 7px 25px;
+    }
+    .customNav .navbar-header {
+        width: 100%;
+        text-align: center;
+    }
+    .customNav>.container .navbar-brand {
+        margin: auto;
+        float: none;
+        display: block;
+    }
+    .inputWrapper input {
+        min-width: 180px;
+    }
+    .topBar p {
+        font-size: 12px;
+    }
+    .topBar p span {
+        margin-right: 8px;
+    }
+    .servicesCards a {
+        font-size: 16px;
+    }
+    .featuredInventory, .aboutSection, footer, .proShop, .servicesBannar, .serviceForm, .aboutUs, .ourTeam, .locations, .contactForm, .testimonials {
+        padding: 30px 0;
+    }
+    .tradeIn {
+        padding: 50px 0;
+    }
+    .mainHeading {
+        font-size: 24px;
+    }
+    .boatDetail h3 {
+        font-size: 18px;
+    }
+    .aboutSection .mainHeading {
+        font-size: 24px;
+    }
+    .customBtnBlack {
+        font-size: 16px;
+    }
+    .filterInner, .boatsListingWrapper {
+        padding: 30px 0;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .filterBtn {
+        padding: 20px;
+        font-size: 20px;
+    }
+    .boatsHeading {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .filterform {
+        margin-bottom: 20px;
+    }
+    .boatsListing .customBtnBlack {
+        float: none;
+        margin-top: 15px;
+    }
+    .boatDetail .price {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .calculatorWrapper {
+        padding: 30px;
+    }
+    .SpectInfo {
+        padding: 50px 50px;
+    }
+    .testiBtn {
+        margin-right: 80px;
+    }
+    .testimonials h2 {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .topBar p {
+        display: block;
+        text-align: center;
+    }
+    .topBar .customBtn {
+        width: 100%;
+        margin-top: 5px;
+    }
+    .customBtnBlack {
+        background: #000;
+        padding: 7px 26px;
+    }
+    .inputWrapper {
+        display: inline-block;
+        width: 49%;
+        margin-bottom: 15px;
+    }
+    .tradeIn form {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .BoatCarousel .owl-nav {
+        left: auto;
+        width: auto;
+        position: relative;
+        top: auto;
+        transform: translate(0);
+    }
+    .BoatCarousel .owl-nav button.owl-next, .BoatCarousel .owl-nav button.owl-prev {
+        float: none;
+    }
+    .servicesCards .bdrLft {
+        border-left: none;
+        border-top: 1px solid #c1c1c1;
+    }
+    .topBnannarInner h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .topBnannarInner a {
+        font-size: 20px;
+    }
+    .topBannar {
+        min-height: 260px;
+    }
+    .mainHeading {
+        font-size: 20px;
+    }
+    .featuredInventory, .aboutSection, .tradeIn, footer, .proShop, .servicesBannar, .serviceForm, .aboutUs, .ourTeam, .locations, .contactForm, .testimonials {
+        padding: 20px 0;
+    }
+    .featuredInventory .mainHeading {
+        margin-bottom: 25px;
+    }
+    .aboutSection .mainHeading, .tradeIn .mainHeading {
+        font-size: 20px;
+    }
+    .proShopLogo {
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .proShopLogo img {
+        width: auto;
+        max-width: 260px;
+    }
+    .proShopContent {
+        margin: 15px 0;
+    }
+    .formHeading {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .teamCard h2 {
+        margin-top: 0;
+    }
+    .teamCard {
+        padding: 20px;
+        padding-top: 0;
+        max-width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .officeDetails h2 {
+        font-size: 20px;
+    }
+    .officeDetails h3 {
+        margin: 20px auto 15px;
+    }
+    .testiBtn {
+        margin-right: 60px;
+    }
+    .testimonials h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .testiContent h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .testiContent p {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .testiContent h4 {
+        font-size: 14px;
+    }
+    .testiContent p img {
+        width: 22px;
+        margin-left: -27px;
+    }
+    .SpectInfo {
+        padding: 15px;
+    }
+    .boatInfo h2 {
+        font-size: 20px;
+    }
+    .boatInfo {
+        padding: 14px;
+    }
+    .boatInfo ul li {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 580px) {
+    .customNav>.container .navbar-brand {
+        float: left;
+    }
+    .boatDetail {
+        text-align: center;
+    }
+    .inputWrapper {
+        width: 100%;
+    }
+    .aboutSection .mainHeading, .tradeIn .mainHeading {
+        font-size: 18px;
+    }
+    .aboutSection p {
+        font-size: 14px;
+    }
+    footer h3 {
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    footer ul a, footer p {
+        font-size: 14px;
+    }
+    .subscribeWrapper input {
+        width: 100%;
+    }
+    .subscribeWrapper .customBtnBlack {
+        float: none;
+    }
+    .formHeading {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .teamCard {
+        margin-top: 50px;
+    }
+    .teamImg {
+        margin-bottom: -40px;
+        width: 90px;
+        height: 90px;
+    }
+    .teamCard h2 {
+        font-size: 18px;
+    }
+    .teamCard span {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .testiBtn {
+        margin-right: 40px;
+    }
+    .testiContent h3 {
+        font-size: 18px;
+    }
+    .testiContent p {
+        font-size: 14px;
+    }
+    .boatInfo h2 {
+        font-size: 18px;
+    }
+    .boatInfo {
+        padding: 14px 0;
+    }
+}
