@@ -2,10 +2,16 @@
   <head>
 
     {{ content_for_header }}
+    <link rel="stylesheet" href="{{ 'bootstrap.min.css' | asset_url }}">
+    <link rel="stylesheet" href="{{ 'bootstrap-theme.min.css' | asset_url }}">
     <link rel="stylesheet" href="{{ 'CustomFonts.css' | asset_url }}">
     <link rel="stylesheet" href="{{ 'style.css' | asset_url }}">
+    <link rel="stylesheet" href="{{ 'mediaQuery.css' | asset_url }}">
   </head>
   <body>
     {{ content_for_layout }}
+    <script src="{{ 'bootstrap.min.js' | asset_url }}"></script>
+    <script src="{{ 'jquery.min.js' | asset_url }}"></script>
+    <script src="{{ 'script.js' | asset_url }}"></script>
   </body>
 </html>
