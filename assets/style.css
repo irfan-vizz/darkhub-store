@@ -192,9 +192,10 @@ button:focus, input:focus, a:focus, textarea:focus {
     margin-bottom: 0;
 }
 
-.topBar p span {
+.topBar p span,  .topBar p a{
     font-weight: 900;
     margin-right: 15px;
+    color: #666666;
 }
 
 .topBar .customBtn {
