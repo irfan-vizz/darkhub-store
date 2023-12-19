@@ -16,7 +16,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="index.html"><img src="{{'logoblack.svg'|asset_url}}" alt=""></a>
+        <a class="navbar-brand" href="index.html"><img src="{{%if section.settings.HeaderLogo %}}{{section.settings.HeaderLogo | image_url}}  {{%else%}}{{'logoblack.svg'|asset_url}}{{%endif%}}" alt=""></a>
       </div>
 
       <div class="collapse navbar-collapse" id="navbar">
