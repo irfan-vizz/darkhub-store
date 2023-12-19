@@ -67,7 +67,12 @@
             </p>
           {%- endfor %}
           {%- if section.settings.topmenu -%}
-            irfan {{ topmenu.links }}
+            irfan 
+            {% for link in topmenu.links -%}
+            <p>
+              {{ link.title | link_to: link.url }}
+            </p>
+          {%- endfor %}
           {%- else -%}
             ali
           {%- endif -%}
