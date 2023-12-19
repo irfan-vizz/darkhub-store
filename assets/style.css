@@ -69,7 +69,9 @@ button:focus, input:focus, a:focus, textarea:focus {
     color: #fff;
     background: #000;
 }
-
+.customBtn + .customBtn {
+    margin-right: 8px;
+}
 .customBtnBlack {
     background: #000;
     border: none;
