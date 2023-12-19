@@ -22,7 +22,11 @@
       <div class="collapse navbar-collapse" id="navbar">
         <ul class="nav navbar-nav navbar-right">
           <li>
-            <a href="boats.html">BOATS</a>
+            <a href="boats.html">
+              {% for link in linklists.main-menu.links -%}
+                {{ link.title | link_to: link.url }}
+              {%- endfor %}
+            </a>
           </li>
           <li>
             <a href="parts.html">PARTS & SERVICES</a>
