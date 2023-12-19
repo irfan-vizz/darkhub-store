@@ -1,0 +1,339 @@
+@media (max-width: 1800px) {}
+
+@media (max-width: 1700px) {}
+
+@media (max-width: 1600px) {}
+
+@media (max-width: 1500px) {}
+
+@media (max-width: 1400px) {
+    .filterInner {
+        padding: 50px;
+        padding-left: 50px;
+    }
+    .filterBtn {
+        padding-left: 50px;
+    }
+}
+
+@media (max-width: 1300px) {}
+
+@media (max-width: 1199px) {
+    .customNav .navbar-brand {
+        width: 210px;
+    }
+    .customNav .navbar-nav>li>a {
+        font-size: 14px;
+    }
+    .topBar .customBtn {
+        text-align: center;
+        padding: 10px 14px;
+    }
+    .customNav .navbar-nav {
+        margin-top: 16px;
+    }
+    .topBannar {
+        min-height: 490px;
+    }
+    .topBnannarInner h1 {
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+    .servicesCards a {
+        font-size: 18px;
+    }
+    .mainHeading {
+        font-size: 28px;
+    }
+    .BoatCarousel .owl-nav {
+        left: -25px;
+        width: calc(100% + 50px);
+    }
+    .proShop .boatDetail h3 {
+        font-size: 16px;
+    }
+    .proShopContent {
+        margin: 30px 0;
+    }
+    .officeDetails ul {
+        padding: 0;
+    }
+    .filterInner {
+        padding-right: 15px;
+    }
+    .boatsListingWrapper {
+        padding-left: 15px;
+    }
+}
+
+@media (max-width: 991px) {
+    .customBtn {
+        padding: 7px 25px;
+    }
+    .customNav .navbar-header {
+        width: 100%;
+        text-align: center;
+    }
+    .customNav>.container .navbar-brand {
+        margin: auto;
+        float: none;
+        display: block;
+    }
+    .inputWrapper input {
+        min-width: 180px;
+    }
+    .topBar p {
+        font-size: 12px;
+    }
+    .topBar p span {
+        margin-right: 8px;
+    }
+    .servicesCards a {
+        font-size: 16px;
+    }
+    .featuredInventory, .aboutSection, footer, .proShop, .servicesBannar, .serviceForm, .aboutUs, .ourTeam, .locations, .contactForm, .testimonials {
+        padding: 30px 0;
+    }
+    .tradeIn {
+        padding: 50px 0;
+    }
+    .mainHeading {
+        font-size: 24px;
+    }
+    .boatDetail h3 {
+        font-size: 18px;
+    }
+    .aboutSection .mainHeading {
+        font-size: 24px;
+    }
+    .customBtnBlack {
+        font-size: 16px;
+    }
+    .filterInner, .boatsListingWrapper {
+        padding: 30px 0;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .filterBtn {
+        padding: 20px;
+        font-size: 20px;
+    }
+    .boatsHeading {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .filterform {
+        margin-bottom: 20px;
+    }
+    .boatsListing .customBtnBlack {
+        float: none;
+        margin-top: 15px;
+    }
+    .boatDetail .price {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .calculatorWrapper {
+        padding: 30px;
+    }
+    .SpectInfo {
+        padding: 50px 50px;
+    }
+    .testiBtn {
+        margin-right: 80px;
+    }
+    .testimonials h2 {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .topBar p {
+        display: block;
+        text-align: center;
+    }
+    .topBar .customBtn {
+        width: 100%;
+        margin-top: 5px;
+    }
+    .customBtnBlack {
+        background: #000;
+        padding: 7px 26px;
+    }
+    .inputWrapper {
+        display: inline-block;
+        width: 49%;
+        margin-bottom: 15px;
+    }
+    .tradeIn form {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .BoatCarousel .owl-nav {
+        left: auto;
+        width: auto;
+        position: relative;
+        top: auto;
+        transform: translate(0);
+    }
+    .BoatCarousel .owl-nav button.owl-next, .BoatCarousel .owl-nav button.owl-prev {
+        float: none;
+    }
+    .servicesCards .bdrLft {
+        border-left: none;
+        border-top: 1px solid #c1c1c1;
+    }
+    .topBnannarInner h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .topBnannarInner a {
+        font-size: 20px;
+    }
+    .topBannar {
+        min-height: 260px;
+    }
+    .mainHeading {
+        font-size: 20px;
+    }
+    .featuredInventory, .aboutSection, .tradeIn, footer, .proShop, .servicesBannar, .serviceForm, .aboutUs, .ourTeam, .locations, .contactForm, .testimonials {
+        padding: 20px 0;
+    }
+    .featuredInventory .mainHeading {
+        margin-bottom: 25px;
+    }
+    .aboutSection .mainHeading, .tradeIn .mainHeading {
+        font-size: 20px;
+    }
+    .proShopLogo {
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .proShopLogo img {
+        width: auto;
+        max-width: 260px;
+    }
+    .proShopContent {
+        margin: 15px 0;
+    }
+    .formHeading {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .teamCard h2 {
+        margin-top: 0;
+    }
+    .teamCard {
+        padding: 20px;
+        padding-top: 0;
+        max-width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .officeDetails h2 {
+        font-size: 20px;
+    }
+    .officeDetails h3 {
+        margin: 20px auto 15px;
+    }
+    .testiBtn {
+        margin-right: 60px;
+    }
+    .testimonials h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .testiContent h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .testiContent p {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .testiContent h4 {
+        font-size: 14px;
+    }
+    .testiContent p img {
+        width: 22px;
+        margin-left: -27px;
+    }
+    .SpectInfo {
+        padding: 15px;
+    }
+    .boatInfo h2 {
+        font-size: 20px;
+    }
+    .boatInfo {
+        padding: 14px;
+    }
+    .boatInfo ul li {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 580px) {
+    .customNav>.container .navbar-brand {
+        float: left;
+    }
+    .boatDetail {
+        text-align: center;
+    }
+    .inputWrapper {
+        width: 100%;
+    }
+    .aboutSection .mainHeading, .tradeIn .mainHeading {
+        font-size: 18px;
+    }
+    .aboutSection p {
+        font-size: 14px;
+    }
+    footer h3 {
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    footer ul a, footer p {
+        font-size: 14px;
+    }
+    .subscribeWrapper input {
+        width: 100%;
+    }
+    .subscribeWrapper .customBtnBlack {
+        float: none;
+    }
+    .formHeading {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .teamCard {
+        margin-top: 50px;
+    }
+    .teamImg {
+        margin-bottom: -40px;
+        width: 90px;
+        height: 90px;
+    }
+    .teamCard h2 {
+        font-size: 18px;
+    }
+    .teamCard span {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    .testiBtn {
+        margin-right: 40px;
+    }
+    .testiContent h3 {
+        font-size: 18px;
+    }
+    .testiContent p {
+        font-size: 14px;
+    }
+    .boatInfo h2 {
+        font-size: 18px;
+    }
+    .boatInfo {
+        padding: 14px 0;
+    }
+}
