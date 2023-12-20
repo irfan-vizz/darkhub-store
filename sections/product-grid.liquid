@@ -31,7 +31,7 @@
                     id="Filter-{{ filter.param_name }}"
                     {% if filter.true_value.active -%}checked{%- endif %}
                     {% if filter.true_value.count == 0 and filter.true_value.active == false -%}disabled{%- endif -%}
-                  >{{ filter.true_value.label }}</label>
+                  >{{ filter.true_value.label }}TRRUE</label>
                 </li>
                 <li>
                   <label for="Filter-{{ filter.param_name }}-{{ filter.false_value.value }}">
@@ -41,7 +41,7 @@
                     id="Filter-{{ filter.param_name }}"
                     {% if filter.false_value.active -%}checked{%- endif %}
                     {% if filter.false_value.count == 0 and filter.false_value.active == false -%}disabled{%- endif %}
-                  >{{ filter.false_value.label }}</label>
+                  >{{ filter.false_value.label }}FALSE</label>
                 </li>
             </ul>
 
