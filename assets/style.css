@@ -99,7 +99,12 @@ button:focus, input:focus, a:focus, textarea:focus {
     font-weight: 400;
     /* text-transform: uppercase; */
 }
-
+.imgBnr{
+    height: 500px;
+}
+.imgBnr img{
+    object-fit: cover;
+}
 .mainHeading small {
     color: #000;
 }
