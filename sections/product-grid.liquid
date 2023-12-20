@@ -1,7 +1,7 @@
 <h1>Collections</h1>
 {% paginate collection.products by 10 %}
   {% for product in collection.products %}
-    1. {{ product.title }} <br>
+   1. {{ product.title }} <br>
   {% endfor %}
 
   {{ paginate | default_pagination }}
