@@ -3,7 +3,7 @@ $(document).ready(function () {
         items: 1,
         loop: true,
         margin: 20,
-        autoplay: true,
+        autoplay: false,
         autoplayTimeout: 4000,
         dots: false,
         autoplayHoverPause: true,
