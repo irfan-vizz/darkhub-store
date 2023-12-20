@@ -6,19 +6,25 @@
         "02751ec5-05fd-47ba-8921-7a53cb5324e5": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/theme_cover_image.jpg"
+            "image": "shopify:\/\/shop_images\/theme_cover_image.jpg",
+            "slideTitle": "Slide 1",
+            "slideButton": ""
           }
         },
         "571f4f24-3d02-4ee4-b238-092fdce3c47b": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/port_washigton_Strongs_Yachts.webp"
+            "image": "shopify:\/\/shop_images\/port_washigton_Strongs_Yachts.webp",
+            "slideTitle": "Slide 2",
+            "slideButton": ""
           }
         },
         "138a2a3d-bdad-4b23-955e-a3f9e233cd0e": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Walk_for_PBMC.webp"
+            "image": "shopify:\/\/shop_images\/Walk_for_PBMC.webp",
+            "slideTitle": "Slide 3",
+            "slideButton": ""
           }
         }
       },
