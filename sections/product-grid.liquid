@@ -1,9 +1,9 @@
 <h1>Collections</h1>
 <div class="container">
-  <div class="row">
+  <div class="productCardWrap">
     {% paginate collection.products by 10 %}
       {% for product in collection.products %}
-        <div class="col-lg-4">
+        <div class="productCard">
           <div class="boatCard">
             <div class="boatImg">
               {% comment %} <img src="assets/images/boatsImages/boat001.png" alt=""> {% endcomment %}
