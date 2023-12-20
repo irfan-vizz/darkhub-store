@@ -331,7 +331,16 @@ button:focus, input:focus, a:focus, textarea:focus {
     height: 100%;
     object-fit: contain;
 }
+.productCardWrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 
+.productCard {
+    flex: 0 0 calc((100% / 3) - 20px);
+    margin: 10px;
+}
 .boatTag {
     position: absolute;
     top: 0;
