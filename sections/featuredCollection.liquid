@@ -29,13 +29,15 @@
                     <li>Vendor:
                       <span>{{ product.vendor }}</span>
                     </li>
-                    <li>Options:
-                      <span>
-                        {% for option in product.options_with_values %}
-                          {{ option.name }}
-                        {% endfor %}
-                      </span>
-                    </li>
+                    {% for option in product.options_with_values %}
+                      <li>{{ option.name }}:
+                        <span>
+                          {% for value in option.values %}
+                            {{ value }},
+                          {% endfor %}
+                        </span>
+                      </li>
+                    {% endfor %}
                     <li>Capacity:
                       <span>16</span>
                     </li>
