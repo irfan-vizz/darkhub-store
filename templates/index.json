@@ -14,11 +14,18 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/port_washigton_Strongs_Yachts.webp"
           }
+        },
+        "138a2a3d-bdad-4b23-955e-a3f9e233cd0e": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Walk_for_PBMC.webp"
+          }
         }
       },
       "block_order": [
         "02751ec5-05fd-47ba-8921-7a53cb5324e5",
-        "571f4f24-3d02-4ee4-b238-092fdce3c47b"
+        "571f4f24-3d02-4ee4-b238-092fdce3c47b",
+        "138a2a3d-bdad-4b23-955e-a3f9e233cd0e"
       ],
       "settings": {
         "title": ""
