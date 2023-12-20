@@ -1,3 +1,45 @@
+<!-- featured inventory section starts here -->
+<section class="featuredInventory">
+  <div class="container">
+    <h2 class="mainHeading">FEATURED INVENTORY</h2>
+    <div class="row">
+      <div class="col-xs-12 col-lg-10 col-lg-offset-1">
+
+        <div class="BoatCarousel owl-carousel owl-theme">
+          {% for product in section.settings.collection.products %}
+            <div class="item">
+              <div class="boatCard">
+                <div class="boatImg">
+                  <img src="assets/images/boatsImages/boat001.png" alt="">
+                  <span class="boatTag closeTag">CLOSEOUT</span>
+                </div>
+                <div class="boatDetail">
+                  <h3>{{ product.title | escape }}</h3>
+                  <ul>
+                    <li>Price:
+                      <span>$99,995</span>
+                    </li>
+                    <li>Length:
+                      <span>22’4”</span>
+                    </li>
+                    <li>Weight:
+                      <span>5,500 lbs</span>
+                    </li>
+                    <li>Capacity:
+                      <span>16</span>
+                    </li>
+                  </ul>
+                  <a class="customBtnBlack" href="#">VIEW BOAT</a>
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- featured inventory section ends here -->
 {% schema %}
   {
     "name": "featuredCollection",
