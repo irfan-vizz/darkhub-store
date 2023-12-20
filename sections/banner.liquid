@@ -1,12 +1,14 @@
 <h1>Drak Hub</h1>
-<section class="topBannar bannerCarousel owl-carousel owl-theme">
+<section class=" bannerCarousel owl-carousel owl-theme">
   {% for block in section.blocks %}
     <div class="item">
-      {{ block.settings.image | image_url: width: 2000 | image_tag: class: 'bgImg' }}
-      <div class="topBnannarInner">
-        <div class="container">
-          <h1>{{ block.settings.slideTitle }}</h1>
-          <a href="#">SHOP ></a>
+      <div class="topBannar">
+        {{ block.settings.image | image_url: width: 2000 | image_tag: class: 'bgImg' }}
+        <div class="topBnannarInner">
+          <div class="container">
+            <h1>{{ block.settings.slideTitle }}</h1>
+            <a href="#">SHOP ></a>
+          </div>
         </div>
       </div>
     </div>
