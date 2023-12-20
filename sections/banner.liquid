@@ -1,6 +1,6 @@
 <h1>Drak Hub</h1>
 <div class="bannerCarousel owl-carousel owl-theme">
-  {% for block in sections.blocks %}
+  {% for block in section.blocks %}
     <div class="item">
       {{ block.settings.image | image_url: width: 500 | image_tag }}
     </div>
