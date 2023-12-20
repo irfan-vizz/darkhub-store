@@ -1,4 +1,23 @@
 $(document).ready(function () {
+    $('.bannerCarousel').owlCarousel({
+        items: 1,
+        loop: true,
+        margin: 20,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        dots: false,
+        autoplayHoverPause: true,
+        nav: false,
+        navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+        responsiveClass: true,
+        responsive: {
+            0: { items: 1 },
+            600: { items: 1 },
+            768: { items: 1 },
+            1000: { items: 1 }
+        }
+    });
+
     $('.BoatCarousel').owlCarousel({
         items: 4,
         loop: true,
