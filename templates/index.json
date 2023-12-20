@@ -36,9 +36,17 @@
       "settings": {
         "title": ""
       }
+    },
+    "eeb76294-72fb-4836-b1c7-9f5567283cee": {
+      "type": "featuredCollection",
+      "settings": {
+        "title": "Featured Collection",
+        "collection": "automated-collection"
+      }
     }
   },
   "order": [
-    "banner"
+    "banner",
+    "eeb76294-72fb-4836-b1c7-9f5567283cee"
   ]
 }
