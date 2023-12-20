@@ -2,7 +2,7 @@
 <div class="bannerCarousel owl-carousel owl-theme">
   {% for block in section.blocks %}
     <div class="item">
-      {{ block.settings.image | image_url| image_tag }}
+      {{ block.settings.image | image_url: width: "100%" | image_tag }}
     </div>
   {% endfor %}
 </div>
