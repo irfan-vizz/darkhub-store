@@ -12,7 +12,13 @@
                 <div class="boatImg">
                   {% comment %} <img src="assets/images/boatsImages/boat001.png" alt=""> {% endcomment %}
                   {{ product.featured_media | image_url: width: 2000 | image_tag }}
-                  <span class="boatTag closeTag">CLOSEOUT</span>
+                  <span class="boatTag closeTag">
+                    {% if product.available == true %}
+                      AVAILABLE
+                    {% else %}
+                      SOLDOUT
+                    {% endif %}
+                  </span>
                 </div>
                 <div class="boatDetail">
                   <h3>{{ product.title | escape }}</h3>
@@ -20,8 +26,8 @@
                     <li>Price:
                       <span>{{ product.price | money }}</span>
                     </li>
-                    <li>Length:
-                      <span>22’4”</span>
+                    <li>Vendor:
+                      <span>{{ product.vendor }}</span>
                     </li>
                     <li>Weight:
                       <span>5,500 lbs</span>
