@@ -1,7 +1,7 @@
 <h1>Collections</h1>
 <div class="container">
-    {% paginate collection.products by 10 %}
-        <div class="productCardWrap"></div>
+  {% paginate collection.products by 10 %}
+    <div class="productCardWrap">
       {% for product in collection.products %}
         <div class="productCard">
           <div class="boatCard">
@@ -43,7 +43,7 @@
           </div>
         </div>
       {% endfor %}
-      </div>
-      {{ paginate | default_pagination }}
-    {% endpaginate %}
+    </div>
+    {{ paginate | default_pagination }}
+  {% endpaginate %}
 </div>
