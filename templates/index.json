@@ -2,8 +2,19 @@
   "sections": {
     "banner": {
       "type": "banner",
+      "blocks": {
+        "02751ec5-05fd-47ba-8921-7a53cb5324e5": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/theme_cover_image.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "02751ec5-05fd-47ba-8921-7a53cb5324e5"
+      ],
       "settings": {
-        "header": ""
+        "title": ""
       }
     }
   },
