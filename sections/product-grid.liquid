@@ -1,8 +1,50 @@
 <h1>Collections</h1>
-{% paginate collection.products by 10 %}
-  {% for product in collection.products %}
-    1. {{ product.title }} <br>
-  {% endfor %}
+<div class="container">
+  <div class="row">
+    {% paginate collection.products by 10 %}
+      {% for product in collection.products %}
+        <div class="col-lg-4">
+          <div class="boatCard">
+            <div class="boatImg">
+              {% comment %} <img src="assets/images/boatsImages/boat001.png" alt=""> {% endcomment %}
+              {{ product.featured_media | image_url: width: 2000 | image_tag }}
+              <span class="boatTag closeTag">
+                {% if product.available == true %}
+                  AVAILABLE
+                {% else %}
+                  SOLDOUT
+                {% endif %}
+              </span>
+            </div>
+            <div class="boatDetail">
+              <h3>{{ product.title | escape }}</h3>
+              <ul>
+                <li>Price:
+                  <span>{{ product.price | money }}</span>
+                </li>
+                <li>Vendor:
+                  <span>{{ product.vendor }}</span>
+                </li>
+                {% for option in product.options_with_values %}
+                  <li>{{ option.name }}:
+                    <span>
+                      {% for value in option.values %}
+                        {{ value }},
+                      {% endfor %}
+                    </span>
+                  </li>
+                {% endfor %}
+                <li>Capacity:
+                  <span>16</span>
+                </li>
+              </ul>
+              <a class="customBtnBlack" href="#">VIEW BOAT</a>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
 
-  {{ paginate | default_pagination }}
-{% endpaginate %}
+      {{ paginate | default_pagination }}
+    {% endpaginate %}
+  </div>
+</div>
