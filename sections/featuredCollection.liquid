@@ -10,7 +10,8 @@
             <div class="item">
               <div class="boatCard">
                 <div class="boatImg">
-                  <img src="assets/images/boatsImages/boat001.png" alt="">
+                  {% comment %} <img src="assets/images/boatsImages/boat001.png" alt=""> {% endcomment %}
+                  {{ product.featured_media | image_url: width: 2000 | image_tag }}
                   <span class="boatTag closeTag">CLOSEOUT</span>
                 </div>
                 <div class="boatDetail">
