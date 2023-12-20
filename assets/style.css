@@ -104,6 +104,7 @@ button:focus, input:focus, a:focus, textarea:focus {
 }
 .imgBnr img{
     object-fit: cover;
+    height: 100%;
 }
 .mainHeading small {
     color: #000;
