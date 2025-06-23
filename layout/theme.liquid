@@ -1,5 +1,15 @@
 <html>
-  <head>
+  <head> 
+    <script src='{{ 'easy_quote_sealapps.js' | asset_url }}' defer='defer' ></script> 
+    <script id='quote_product_variants' type='application/json'>
+        {{ product.variants | json }}
+    </script>
+    <script id='quote_product_selected_or_first_available_variant' type='application/json'>
+        {{ product.selected_or_first_available_variant | json }}
+    </script>
+    <script id='quote_product_current_id' type='application/json'>
+            {{ product.id | json }}
+    </script>
 
     {{ content_for_header }}
     <link rel="stylesheet" href="{{ 'bootstrap.min.css' | asset_url }}">
