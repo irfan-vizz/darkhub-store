@@ -58,29 +58,30 @@
       "blocks": {
         "hulk_form_builder_form_block_W3rKtr": {
           "type": "shopify://apps/hulk-form-builder/blocks/form-block/b6b8dd14-356b-4725-a4ed-77232212b3c3",
+          "disabled": true,
           "settings": {
             "form_uuid": "aqT0R5jZG6kETk5m2PqalQ",
             "form_settings": true,
             "font_color": "#000000",
             "size": 14,
-            "input_background_color": "#FFF",
-            "input_background_color_focus": "#F4DADA",
+            "input_background_color": "#ffffff",
+            "input_background_color_focus": "#f4dada",
             "input_border_radius": 1,
             "input_border_color": "#ebe9e9",
-            "input_border_color_focus": "#2D2727",
-            "input_font_color": "#3D3131",
+            "input_border_color_focus": "#2d2727",
+            "input_font_color": "#3d3131",
             "input_size": 14,
             "border_color": "#121212",
             "border_radius": 2,
             "border": 1,
-            "fill_color": "#EBE9E9",
+            "fill_color": "#ebe9e9",
             "padding": 35,
             "form_width": 600,
             "btn_text": "Submit",
-            "sub_btn_txt_color": "#F3F3F3",
-            "sub_btn_bg_color": "#3F3333",
+            "sub_btn_txt_color": "#f3f3f3",
+            "sub_btn_bg_color": "#3f3333",
             "sub_btn_font_size": 14,
-            "sub_btn_bdr_color": "#FFFFFF",
+            "sub_btn_bdr_color": "#ffffff",
             "sub_btn_bdr_rad": 3,
             "sub_btn_bdr_width": 1,
             "fonts": "Times New Roman"
@@ -91,11 +92,29 @@
         "hulk_form_builder_form_block_W3rKtr"
       ],
       "settings": {}
+    },
+    "177710111035a220f4": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_homepage_kLd3nJ": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget_homepage/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "product": "",
+            "review_data": "sample_data",
+            "max_width": 1200
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_homepage_kLd3nJ"
+      ],
+      "settings": {}
     }
   },
   "order": [
     "banner",
     "eeb76294-72fb-4836-b1c7-9f5567283cee",
-    "1750660005930b6608"
+    "1750660005930b6608",
+    "177710111035a220f4"
   ]
 }
